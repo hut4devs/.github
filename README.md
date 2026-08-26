@@ -53,8 +53,7 @@ transparency, accountability, collaboration, and trust.**
 
 ## 🎯 The Design Challenge
 
-> **How might we transform intern accommodation payments into a
-> transparent and verifiable experience built on collaboration?**
+> **How might we help fellows and interns coordinate shared responsibilities, peer support, and repayments in a way that builds trust, starting with accommodation?**
 
 This challenge keeps Hut4Devs focused on the human problem rather than
 the technology alone.
