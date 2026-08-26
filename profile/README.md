@@ -53,11 +53,8 @@ transparency, accountability, collaboration, and trust.**
 
 ## 🎯 The Design Challenge
 
-> **How might we transform intern accommodation payments into a
-> transparent and verifiable experience built on collaboration?**
-
-This challenge keeps Hut4Devs focused on the human problem rather than
-the technology alone.
+> **How might we help fellows and interns coordinate shared responsibilities, peer support,
+> and repayments in a way that builds trust, starting with accommodation?**
 
 Blockchain is infrastructure. **Trust, collaboration, and accommodation
 stability are the experience we are trying to create.**
@@ -232,7 +229,7 @@ Within a chamber, roommates can:
 Room-level incentives can later recognize groups that consistently meet
 agreed accommodation commitments together.
 
-------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 ## 🏆 Recognition and Community Habits
 
