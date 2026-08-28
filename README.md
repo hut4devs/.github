@@ -1,453 +1,802 @@
 # 🛖 Hut4Devs
 
-> **Turning payments into trails of trust built by us and for us-all.**
+> **Turning everyday collaboration into trails of trust built by us and
+> for us-all.**
 
-## **Build. Pay. Support. Thrive.**
+**Build. Pay. Support. Thrive.**
+
+Hut4Devs is open-source, community-built infrastructure for helping
+people coordinate shared responsibilities, support one another, honour
+commitments, and build trustworthy evidence over time.
+
+**Accommodation is where we begin — not where the vision ends.**
 
 ------------------------------------------------------------------------
 
 ## 📑 Table of Contents
 
+- 🛖 [Welcome to the Colony](#-welcome-to-the-colony)
 - 🎯 [The Design Challenge](#-the-design-challenge)
 - 🐜 [The Problem](#-the-problem)
-- 💡 [The Hut4Devs Approach](#-the-hut4devs-approach)
-- 🤝 [Collaboration Is Infrastructure](#-collaboration-is-infrastructure)
-- 🔄 [Interdependence in Practice](#-interdependence-in-practice)
-- 💸 [Peer-to-Peer Support](#-peer-to-peer-support)
-- 🏆 [Recognition and Community Habits](#-recognition-and-community-habits)
+- 💡 [What Hut4Devs Is](#-what-hut4devs-is)
+- 🏠 [Why Accommodation Comes First](#-why-accommodation-comes-first)
+- 🔄 [The Hut4Devs Model](#-the-hut4devs-model)
+- 💸 [Peer Support](#-peer-support)
+- 🤝 [Vouching and Distributed Trust](#-vouching-and-distributed-trust)
 - 🐜 [Trails of Trust](#-trails-of-trust)
+- 🏆 [Recognition Without Human Scoring](#-recognition-without-human-scoring)
+- 🔐 [Privacy, Consent, and Repair](#-privacy-consent-and-repair)
+- 🧭 [System, Social, and Cultural Integrity](#-system-social-and-cultural-integrity)
+- ⚖️ [Governance and Responsible Power](-#governance-and-responsible-power)
+- 🛠️ [Technology Posture](-#technology-posture)
+- 🚫 [What Hut4Devs Is Not](#-what-hut4devs-is-not)
+- 🌱 [Where the Vision May Grow](#-where-the-vision-may-grow)
 - 👥 [Who Hut4Devs Serves](#-who-hut4devs-serves)
-- 🚀 [Learn → Earn → Build → Sustain](#-learn--earn--build--sustain)
-- 🧭 [Project Principles](#-project-principles)
+- 🚀 [Learn → Build → Contribute → Sustain](#-learn--build--contribute--sustain)
+- 📚 [Project Documentation](#-project-documentation)
 - 🤝 [Contributing](#-contributing)
+- 🔐 [Security](#-security)
+- ⚖️ [License](-#license)
+- 🌍 [The Colony Metaphor](#-the-colony-metaphor)
+- 🌱 [The Core Belief](#-the-core-belief)
+- 🤝 [Built by Us. For Us-All](#-built-by-us-for-us-all)
 
 ------------------------------------------------------------------------
 
-## Welcome to the Colony
+## 🛖 Welcome to the Colony
 
-**Hut4Devs** is an open-source, community-driven platform designed to
-make intern accommodation payments more transparent, verifiable,
-collaborative, and easier to manage.
+Communities already coordinate through trust.
 
-Inspired by the way colonies build resilient structures through
-collective effort, Hut4Devs turns accommodation payments and community
-support into **trails of trust**.
+People share responsibilities, lend to one another, contribute toward
+needs, repay support, mentor others, recommend peers, resolve
+difficulties, and depend on relationships that often exist outside
+formal systems.
 
-The problem begins with familiar experiences: interns repeatedly fill
-payment forms, submit screenshots, wait for manual verification, receive
-funds on irregular dates, and depend on records scattered across chats,
-forms, emails, spreadsheets, and bank transactions.
+But much of that cooperation is difficult to carry forward.
 
-Hut4Devs brings those interactions into one trusted system.
+Commitments may live in conversations. Payment evidence may live in
+screenshots. Repayments may be remembered differently by different
+people. Acts of support may disappear without a record. Important
+context may be scattered across chats, forms, spreadsheets, receipts,
+emails, and personal memory.
 
-But the vision goes beyond payments.
+Hut4Devs seeks to give that existing collaboration a trustworthy digital
+structure.
 
-We already support one another. We lend when a fellow is short, repay
-when funds arrive, contribute toward urgent needs, gift when we can, and
-depend on one another when circumstances change.
+It begins with fellows and interns managing accommodation, because
+accommodation brings payment, responsibility, timing, peer support,
+privacy, accountability, and trust into one real environment.
 
-**Hut4Devs gives that existing culture a digital structure built around
-transparency, accountability, collaboration, and trust.**
+The broader ambition is **trusted community coordination
+infrastructure**.
+
+> **People present narratives. The platform preserves facts.**
 
 ------------------------------------------------------------------------
 
 ## 🎯 The Design Challenge
 
-> **How might we help fellows and interns coordinate shared responsibilities, peer support, and repayments in a way that builds trust, starting with accommodation?**
+> **How might we help fellows and interns coordinate shared
+> responsibilities, peer support, and repayments in a way that builds
+> trust, starting with accommodation?**
 
-This challenge keeps Hut4Devs focused on the human problem rather than
-the technology alone.
+Each part matters.
 
-Blockchain is infrastructure. **Trust, collaboration, and accommodation
-stability are the experience we are trying to create.**
+- **Shared responsibilities** keeps the problem broader than isolated
+  transactions.
+- **Peer support** recognizes that people already help one another.
+- **Repayments** makes commitments and repair visible.
+- **Builds trust** focuses on the human outcome rather than activity
+  counts.
+- **Starting with accommodation** gives the project a concrete proving
+  ground without limiting its future.
+
+The project therefore follows a simple research principle:
+
+> **Understand before automating. Validate before scaling. Solve the
+> human problem before choosing technology.**
 
 ------------------------------------------------------------------------
 
 ## 🐜 The Problem
 
-Accommodation payment management can become unnecessarily stressful for
-interns and the people coordinating accommodation.
+Accommodation exposes a broader coordination problem.
 
-| Challenge                      | What happens                                                                                    |
-|--------------------------------|-------------------------------------------------------------------------------------------------|
-| **Repeated forms**             | Interns repeatedly submit names, amounts, rooms, months, bank details, and payment information. |
-| **Screenshot-based proof**     | Payment evidence can be difficult to verify and may be edited, reused, lost, or deleted.        |
-| **Manual verification**        | Coordinators spend time cross-checking payments and following up.                               |
-| **Different payment channels** | Interns may receive money through different programs, banks, platforms, or personal sources.    |
-| **Irregular payment dates**    | Funds do not always arrive at the same time for everyone.                                       |
-| **Scattered records**          | Important information lives across forms, chats, emails, spreadsheets, and receipts.            |
-| **Temporary shortages**        | A payment may become due before an intern's expected funds arrive.                              |
-| **Informal peer support**      | Loans, gifts, and contributions already happen but often have no clear shared record.           |
+| Challenge                  | What happens                                                                                   |
+|----------------------------|------------------------------------------------------------------------------------------------|
+| **Repeated forms**         | Members repeatedly provide information that may already exist elsewhere.                       |
+| **Screenshot-based proof** | Evidence can be difficult to verify, reused, edited, misplaced, or interpreted inconsistently. |
+| **Manual verification**    | Coordinators spend time cross-checking payments and following up.                              |
+| **Irregular timing**       | Expected funds may arrive after responsibilities become due.                                   |
+| **Scattered records**      | Commitments and evidence live across chats, forms, spreadsheets, receipts, and bank records.   |
+| **Informal support**       | Loans, gifts, contributions, and repayments happen without a shared structure.                 |
+| **Context loss**           | A transaction may be recorded while the meaning of the agreement is lost.                      |
+| **Privacy tension**        | People need appropriate verification without exposing their entire financial lives.            |
+| **Repair difficulty**      | Systems often record failure more easily than communication, renegotiation, and recovery.      |
 
-The result is not merely a payment problem.
+The deeper problem is:
 
-**It is a trust, coordination, and collaboration problem.**
-
-------------------------------------------------------------------------
-
-## 💡 The Hut4Devs Approach
-
-Hut4Devs aims to create shared payment and support infrastructure where
-important interactions can become trusted, verifiable records.
-
-### Accommodation Payments
-
-Interns can make accommodation payments through supported digital
-payment flows, with relevant transactions recorded as verifiable trails.
-
-### Payment Verification
-
-Instead of depending primarily on screenshots and manual cross-checking,
-the system can use transaction data as a trusted source of verification.
-
-### Part Payments
-
-Members who cannot complete a payment at once can contribute in parts
-and complete the balance later.
-
-### Peer Support
-
-A member can help another member through a loan, contribution, or gift.
-
-### Repayment
-
-When support is a loan, repayment can also become part of the trusted
-history between peers.
-
-### Recognition
-
-Consistent payment, repayment, generosity, contribution, mentorship, and
-other collaborative behaviors can be recognized without turning
-generosity into competition.
+> **People are already collaborating, but the infrastructure around
+> responsibilities, support, commitments, evidence, and repair is
+> fragmented.**
 
 ------------------------------------------------------------------------
 
-## 🤝 Collaboration Is Infrastructure
+## 💡 What Hut4Devs Is
 
-Collaboration is not an extra feature added after Hut4Devs is built.
+Hut4Devs is community-built infrastructure for helping people coordinate
+responsibilities and support in ways that can strengthen trust over
+time.
 
-**It is part of the architecture of the community.**
+It connects four ideas:
 
-It begins with developers collaborating to build the platform and
-continues through maintenance, accommodation payments, roommate
-accountability, peer-to-peer support, repayment, gifting, mentoring, and
-community growth.
+### Coordinate
+
+Understand responsibilities, commitments, timing, status, and relevant
+shared activity.
+
+### Support
+
+Allow people to help one another through lending, gifting, contributing,
+mentoring, vouching, building, or other forms of participation.
+
+### Account
+
+Make important commitments and actions appropriately verifiable while
+preserving context, privacy, and the ability to correct mistakes.
+
+### Grow
+
+Allow meaningful patterns of responsibility, judgment, repair,
+mentorship, and contribution to become visible without reducing people
+to scores.
+
+Together:
+
+> **Coordinate → Support → Account → Grow**
+
+------------------------------------------------------------------------
+
+## 🏠 Why Accommodation Comes First
+
+Accommodation is Hut4Devs' first use case because it naturally combines:
+
+- Shared responsibility.
+- Recurring commitments.
+- Payment verification.
+- Different stipend or income schedules.
+- Temporary shortages.
+- Roommate relationships.
+- Peer lending.
+- Gifting and contributions.
+- Partial repayment.
+- Communication during difficulty.
+- Privacy.
+- Accountability.
+- Repair.
+
+Conceptually:
 
 ``` text
-BUILD
-Developers create the system together
-        ↓
-MAINTAIN
-Contributors improve and protect it
-        ↓
-USE
-Interns manage accommodation payments
-        ↓
-SUPPORT
-Peers lend, gift, contribute, and help
-        ↓
-REPAY
-Members honor commitments
-        ↓
-RECOGNIZE
-Positive collaborative behavior becomes visible
-        ↓
-GROW
-Members become contributors, mentors, and maintainers
-        ↓
-BUILD AGAIN
-The colony becomes stronger
+Hut4Devs
+    │
+    └── Trusted community coordination infrastructure
+             │
+             ├── Shared responsibilities
+             ├── Commitments
+             ├── Peer support
+             ├── Vouching
+             ├── Payments and repayments
+             ├── Recognition
+             ├── Verifiable statements
+             ├── Community learning
+             └── Governance
+                       │
+                       └── First proving ground:
+                           Accommodation
 ```
 
-For the deeper philosophy and community model, see
-[`docs/01_COLLABORATION.md`](docs/01_COLLABORATION.md).
+Accommodation gives the project focus.
+
+It should not become the boundary of the vision.
 
 ------------------------------------------------------------------------
 
-## 🔄 Interdependence in Practice
+## 🔄 The Hut4Devs Model
 
-Hut4Devs recognizes a simple reality:
-
-> **Sometimes the payment is due before the money arrives.**
-
-When that happens, community can matter.
+A Hut4Devs interaction should preserve meaning, not merely movement.
 
 ``` text
-I contribute 🤝
+RESPONSIBILITY
       ↓
-You are supported
+COMMITMENT
       ↓
-You repay or support another
+ACTION
       ↓
-Another member receives support
+EVIDENCE
       ↓
-Trust grows
+TRUST TRAIL
       ↓
-The colony becomes stronger
+CONTEXTUAL STATEMENT / RECOGNITION
+      ↓
+BETTER HUMAN JUDGMENT
 ```
 
-A person who receives support today may become the person who provides
-support tomorrow.
+This means the platform should be able to represent:
 
-Hut4Devs is therefore designed around **interdependence with
-accountability**, rather than isolation.
+- What was expected.
+- What was agreed.
+- What actually happened.
+- What changed.
+- Who was involved.
+- What evidence exists.
+- What remains private.
+- Whether a correction occurred.
+- Whether a difficulty was repaired.
 
-------------------------------------------------------------------------
+The goal is not to make every person predictable.
 
-## 💸 Peer-to-Peer Support
-
-Peer support can take different forms.
-
-| Action                | Meaning                                                          |
-|-----------------------|------------------------------------------------------------------|
-| **Loan**              | Temporary financial support with an expectation of repayment.    |
-| **Partial repayment** | Progress toward fulfilling a repayment commitment.               |
-| **Repayment**         | Completing an agreed obligation to a peer.                       |
-| **Gift**              | Support given without expectation of repayment.                  |
-| **Contribution**      | Helping cover part of another member's accommodation obligation. |
-
-The goal is not to turn friendship into debt collection.
-
-The goal is to provide **clarity and accountability around support that
-already happens naturally**.
+The goal is to make meaningful coordination easier to understand.
 
 ------------------------------------------------------------------------
 
-## 🛖 Shared Accommodation, Shared Responsibility
+## 💸 Peer Support
 
-Hut4Devs can organize members around accommodation units or
-**chambers**.
+Peer support should remain fundamentally **peer to peer**.
 
-Within a chamber, roommates can:
+A member may request or offer:
 
-- Track shared accommodation obligations.
-- Receive payment reminders.
-- See whether required room-level obligations have been completed,
-  subject to appropriate permissions.
-- Support one another when someone is temporarily short.
-- Contribute partially or fully toward another member's payment.
-- Build habits of shared responsibility.
+| Support type                | Meaning                                                                       |
+|-----------------------------|-------------------------------------------------------------------------------|
+| **Loan**                    | Support with an agreed expectation of repayment.                              |
+| **Gift**                    | Support without repayment expectation.                                        |
+| **Contribution**            | Support toward a purpose without automatically creating debt.                 |
+| **Partial support**         | One person helps with part of a need while others may contribute differently. |
+| **Mentorship or knowledge** | Non-financial support that strengthens another person's capacity.             |
 
-Room-level incentives can later recognize groups that consistently meet
-agreed accommodation commitments together.
+The meaning must be clear before an action is confirmed.
+
+``` text
+LOAN
+Repayment expected
+
+GIFT
+No repayment expected
+
+CONTRIBUTION
+Support toward a purpose;
+does not automatically create debt
+```
+
+The platform should not silently convert one into another.
+
+### Saying No Must Be Safe
+
+A healthy support culture makes **no** a legitimate answer.
+
+A person may decline to:
+
+- Lend.
+- Gift.
+- Contribute.
+- Vouch.
+- Sponsor.
+- Share private information.
+- Volunteer time.
+
+Declining should not automatically create negative recognition.
+
+> **Asking for help is not weakness. Helping is not ownership. Declining
+> is not betrayal.**
+
+### Coordinators Are Optional
+
+Coordinators may help with shared deadlines, accommodation operations,
+clarification, or invited dispute support.
+
+They should not normally approve ordinary peer:
+
+- Loans.
+- Gifts.
+- Contributions.
+- Vouches.
+- Repayments.
+
+The default remains:
+
+``` text
+Peer ↔ Peer
+```
 
 ------------------------------------------------------------------------
 
-## 🏆 Recognition and Community Habits
+## 🤝 Vouching and Distributed Trust
 
-Hut4Devs can recognize behaviors that strengthen the colony.
+Sometimes a person is willing to support someone they do not know well
+enough.
 
-| Behavior                                    | Possible recognition           |
-|---------------------------------------------|--------------------------------|
-| Consistent accommodation payments           | 🐜 **Consistency Recognition** |
-| Help a peer meet a payment                  | 🤝 **Generous Ant**            |
-| Repay a peer as agreed                      | 🔄 **Trusted Ant**             |
-| Gift accommodation support                  | 💝 **Giving Ant**              |
-| Consistently strengthen a room or community | 🏠 **Community Builder**       |
-| Demonstrate dependable support habits       | ⭐ **Dependable Ant**          |
-| Help across the wider colony                | 🐜 **Colony Champion**         |
+Instead of requiring a central authority, they may ask people whose
+judgment they trust.
 
-Recognition should encourage healthy habits without creating pressure to
-lend, borrow, or give.
+``` text
+A considers supporting B
+        ↓
+A needs more context
+        ↓
+A asks C, D, and E
+        ↓
+Each responds independently
+        ↓
+A evaluates the evidence
+        ↓
+A decides
+```
 
-**Generosity must remain voluntary.**
+A vouch is contextual.
+
+It should mean something like:
+
+``` text
+A
+vouches for B
+in context X
+at confidence Y
+for commitment Z
+at time T
+```
+
+It should **not** mean:
+
+> This person is universally trustworthy.
+
+Vouching does not automatically create guarantor liability.
+
+A person who declines to vouch may be demonstrating excellent judgment.
+
+The system informs decisions.
+
+It should not replace human judgment.
 
 ------------------------------------------------------------------------
 
 ## 🐜 Trails of Trust
 
-The **pheromone trail** is Hut4Devs' central metaphor.
+A **trail of trust** is a trustworthy history of meaningful activity.
 
-In a colony, trails help members coordinate. In Hut4Devs, a trail
-represents a trusted digital record associated with meaningful activity.
+Examples may include:
 
-A payment can leave a trail. A repayment can leave another. A
-contribution can leave another. A gift can leave another.
+- Commitment created.
+- Payment recorded.
+- Partial payment recorded.
+- Loan accepted.
+- Repayment recorded.
+- Vouch submitted.
+- Due date changed.
+- Consent granted or revoked.
+- Correction requested.
+- Correction approved.
+- Commitment completed.
+- Statement issued or revoked.
 
-A history of participation can therefore tell a richer story than a
-screenshot ever could.
+Important history should not be silently rewritten.
 
-> **The trail is not simply proof that money moved. It is evidence of
-> participation, reliability, and collaboration.**
+Corrections should preserve what changed, why it changed, and who had
+authority to approve it.
+
+A useful model is:
+
+``` text
+FACT
+  ↓
+EVIDENCE / TRUST TRAIL
+  ↓
+PURPOSE-SPECIFIC STATEMENT
+```
+
+A member may later choose to generate a verifiable statement based on
+selected evidence without exposing every underlying detail.
+
+> **The trail should help another person understand what happened
+> without pretending the platform knows everything about someone's
+> character.**
 
 ------------------------------------------------------------------------
 
-## 🔐 Transparency Without Unnecessary Exposure
+## 🏆 Recognition Without Human Scoring
 
-Hut4Devs should not confuse transparency with making everyone's
-financial life public.
+Recognition may acknowledge meaningful patterns such as:
 
-The platform should distinguish between:
+- Fulfilled commitments.
+- Responsible repayment.
+- Responsible communication during difficulty.
+- Successful repair.
+- Careful vouching and judgment.
+- Peer support.
+- Mentorship.
+- Technical contribution.
+- Community stewardship.
+- Leadership demonstrated in context.
 
-- What needs to be verifiable.
+Recognition should say:
+
+> **We noticed what you repeatedly demonstrated here.**
+
+It should never pretend to say:
+
+> **We have calculated who you are.**
+
+Hut4Devs should therefore avoid:
+
+- Universal trust scores.
+- Public rankings of human worth.
+- Wealth leaderboards.
+- Popularity-based status.
+- Transaction-volume competition.
+- Permanent negative labels.
+- Hidden use of recognition to control unrelated opportunities.
+
+Recognition must remain contextual, explainable, evidence-based, and
+capable of reflecting growth.
+
+------------------------------------------------------------------------
+
+## 🔐 Privacy, Consent, and Repair
+
+Transparency does not mean making everyone's financial life public.
+
+Hut4Devs should distinguish:
+
+- What must be verifiable.
 - What should remain private.
-- Who is authorized to view specific information.
-- What information can contribute to recognition.
-- What should never be exposed simply because a transaction exists.
+- Who may access specific information.
+- Why access is needed.
+- How long access lasts.
+- Whether consent is required.
+- What may be inferred even when a sensitive field is hidden.
 
-**The objective is trustworthy verification, not unnecessary
-surveillance.**
+Detailed debt or support history should not automatically become public.
+
+Where a prospective supporter needs additional context, the person whose
+history is involved should normally understand:
+
+``` text
+Who is requesting access?
+What information is requested?
+Why?
+For how long?
+Can I decline?
+```
+
+The architecture should support purpose-bound and time-bound access
+where appropriate.
+
+### Repair Is Part of Trust
+
+A missed commitment should not permanently define someone.
+
+A trustworthy trail can show:
+
+``` text
+Commitment
+    ↓
+Difficulty
+    ↓
+Communication
+    ↓
+Revised agreement
+    ↓
+Partial repayment
+    ↓
+Completion
+    ↓
+Repair visible in history
+```
+
+History should not be erased.
+
+But newer evidence should matter.
+
+------------------------------------------------------------------------
+
+## 🧭 System, Social, and Cultural Integrity
+
+Hut4Devs increasingly operates across three connected integrity layers.
+
+### System Integrity
+
+Can the system prove what happened?
+
+This includes:
+
+- Traceable events.
+- Understandable corrections.
+- Anti-forgery protection.
+- Selective verification.
+- Secure access.
+- Recovery from failure.
+
+### Social Integrity
+
+Are relationships handled fairly?
+
+This includes:
+
+- Contextual vouching.
+- Safe declining.
+- Relationship-first support.
+- Anti-clique awareness.
+- No mandatory coordinator.
+- No social debt created by generosity.
+- Human judgment remaining human.
+
+### Cultural Development
+
+Are people developing the judgment the system depends on?
+
+This may include lightweight learning around:
+
+- Trust.
+- Consent.
+- Responsibility.
+- Vouching.
+- Accountability.
+- Repair.
+- Leadership.
+- Security.
+- Stewardship.
+- Cross-group belonging.
+
+Possible formats include short videos, audio, articles, stories,
+illustrated scenarios, and reflection prompts.
+
+The boundary is:
+
+> **Share principles. Protect people.**
+
+Together:
+
+``` text
+SYSTEM INTEGRITY
+        +
+SOCIAL INTEGRITY
+        +
+CULTURAL DEVELOPMENT
+        +
+ACCOUNTABLE GOVERNANCE
+        ↓
+TRUSTWORTHY COMMUNITY INFRASTRUCTURE
+```
+
+------------------------------------------------------------------------
+
+## ⚖️ Governance and Responsible Power
+
+Governance defines how Hut4Devs exercises authority, makes decisions,
+resolves disputes, changes rules, and remains accountable.
+
+The project follows several principles:
+
+> **A role grants responsibility before it grants privilege.
+> Technical capability is not legitimate authority.
+> Authority should be sufficient to serve the community, but never
+> broader than the responsibility that justifies it.**
+
+Important decisions should make clear:
+
+``` text
+Who may propose?
+Who must be consulted?
+Who may decide?
+Who may implement?
+Who must be informed?
+Who may challenge?
+Who may review?
+Who may reverse?
+```
+
+Governance should remain contextual and proportional.
+
+A room-level matter need not become a platform-wide matter.
+
+A developer's database access does not make them a social authority.
+
+A sponsor's funding does not grant unrestricted access to community
+data.
+
+------------------------------------------------------------------------
+
+## 🛠️ Technology Posture
+
+Earlier Hut4Devs drafts named specific technologies too early.
+
+The current direction is intentionally more disciplined:
+
+> **Technology should serve validated human and system needs, not become
+> the reason Hut4Devs exists.**
+
+Hut4Devs is:
+
+- **Architecture-first, stack-later.**
+- **Modular first, distributed when justified.**
+- **Blockchain-aware, not blockchain-dependent.**
+- **Privacy-first for sensitive records.**
+- **Open to Stellar or other external infrastructure through replaceable
+  adapters where useful.**
+- **Designed so sensitive raw personal and financial history does not
+  need to be placed on a public ledger.**
+
+A possible blockchain boundary is:
+
+``` text
+Private detailed records
+        ↓
+Hut4Devs-controlled storage
+        ↓
+Minimal cryptographic proof / anchor
+        ↓
+External verification layer
+```
+
+The project may explore Stellar, Soroban, digital assets, wallets,
+databases, payment providers, and other technologies.
+
+None of those technologies is the product.
+
+The architecture should make future technologies replaceable where
+reasonable.
+
+> **Architecture is not the technology list. It is the structure that
+> determines what the technology is allowed to do.**
+
+------------------------------------------------------------------------
+
+## 🚫 What Hut4Devs Is Not
+
+Current scope intentionally excludes several directions.
+
+Hut4Devs is **not** currently building:
+
+- A universal social-credit system.
+- A universal credit score.
+- A public debt registry.
+- A popularity leaderboard.
+- A wealth leaderboard.
+- An interest-based community lending marketplace.
+- Pooled investment or profit-sharing products.
+- Automatic guarantor liability through vouching.
+- Mandatory coordinator approval for ordinary peer support.
+- Permanent negative labels.
+- Surveillance infrastructure disguised as transparency.
+
+Future opportunities should be evaluated against the project's core
+mission before being added.
+
+------------------------------------------------------------------------
+
+## 🌱 Where the Vision May Grow
+
+Accommodation is the first proving ground.
+
+The same principles may later be relevant to other real coordination
+problems such as:
+
+- Shared community responsibilities.
+- Mentorship and contribution evidence.
+- Purpose-bound grants.
+- Sponsored tools or learning resources.
+- Community support packages.
+- Institution-supported opportunities.
+
+These are **research directions**, not promises of current
+functionality.
+
+Any expansion should preserve the core question:
+
+> **Does this solve a real coordination problem while strengthening
+> trust, dignity, responsibility, and fair access?**
 
 ------------------------------------------------------------------------
 
 ## 👥 Who Hut4Devs Serves
 
-### Interns and Fellows
+### Fellows and Interns
 
-A clearer way to manage accommodation obligations, demonstrate payment
-consistency, receive appropriate support, and support others.
+People coordinating responsibilities, payments, support, commitments,
+and recovery.
 
-### Roommates
+### Peers, Roommates, and Supporters
 
-Tools for shared accountability and voluntary mutual support.
+People who may share responsibilities or voluntarily support one another
+without gaining automatic access to private history.
 
-### Accommodation Coordinators and Managers
+### Contributors and Maintainers
 
-A more structured view of payment status and reporting, reducing
-dependence on manual screenshot verification.
+People researching, designing, building, testing, documenting, securing,
+and governing the open-source infrastructure.
 
-### Developers
+### Coordinators and Community Stewards
 
-A real open-source environment for learning, contributing, maintaining
-infrastructure, mentoring others, and participating in the ecosystem
-they are building.
+People supporting operations and shared responsibilities within clearly
+limited authority.
 
-### The Wider Community
+### Future Partners
 
-A practical experiment in combining open-source development, digital
-payments, and community-driven financial cooperation.
-
-------------------------------------------------------------------------
-
-## 🚀 Learn → Earn → Build → Sustain
-
-Hut4Devs connects learning with real participation.
-
-| Stage       | What it means                                                                         |
-|-------------|---------------------------------------------------------------------------------------|
-| **Learn**   | Develop skills in open source, Web3, Stellar, product development, and collaboration. |
-| **Earn**    | Contribute useful work and participate in available contributor reward mechanisms.    |
-| **Build**   | Create and improve Hut4Devs.                                                          |
-| **Pay**     | Use the infrastructure for accommodation payments.                                    |
-| **Support** | Help peers through voluntary lending, gifting, or contributions.                      |
-| **Sustain** | Maintain the platform, mentor others, and strengthen the community.                   |
-
-The journey should not end at earning.
-
-> **The goal is to become capable of helping the next person build,
-> participate, and thrive.**
+Organizations that may support communities, tools, grants, or
+infrastructure without automatically gaining unrestricted access to
+member data.
 
 ------------------------------------------------------------------------
 
-## 🛠️ Proposed Technology Direction
+## 🚀 Learn → Build → Contribute → Sustain
 
-Hut4Devs is being designed around the Stellar ecosystem while the
-implementation continues to evolve.
+Hut4Devs connects learning with participation.
 
-| Layer                   | Direction                                                                          |
-|-------------------------|------------------------------------------------------------------------------------|
-| **Blockchain**          | Stellar                                                                            |
-| **Digital payments**    | Stellar-based assets such as USDC, where appropriate                               |
-| **Smart contracts**     | Soroban                                                                            |
-| **Wallet integration**  | Stellar-compatible wallets                                                         |
-| **Frontend**            | React / Next.js                                                                    |
-| **Backend**             | Node.js and/or Python                                                              |
-| **Data layer**          | Off-chain application storage or caching, where appropriate                        |
-| **APIs**                | REST and/or GraphQL                                                                |
-| **Open-source funding** | Community and ecosystem funding mechanisms, including Drips/Waves where applicable |
+| Stage          | Meaning                                                                                  |
+|----------------|------------------------------------------------------------------------------------------|
+| **Learn**      | Develop technical, product, security, governance, and collaboration skills.              |
+| **Build**      | Contribute to real infrastructure around a real community problem.                       |
+| **Contribute** | Add code, research, design, documentation, testing, mentorship, or stewardship.          |
+| **Use**        | Apply the system to real responsibilities, beginning with accommodation.                 |
+| **Support**    | Help peers responsibly when able.                                                        |
+| **Sustain**    | Maintain the platform, mentor others, protect its principles, and improve the community. |
 
-> **Note:** The technical architecture is still evolving. The technology
-> should serve the design challenge, not define it.
+The journey should not end with completing a task.
 
-------------------------------------------------------------------------
-
-## 🛖 The Colony Metaphor
-
-| Colony idea           | Hut4Devs meaning                                       |
-|-----------------------|--------------------------------------------------------|
-| **The Hut / Mound**   | The shared infrastructure and community                |
-| **The Colony**        | Everyone participating in the ecosystem                |
-| **Chambers**          | Rooms or accommodation units                           |
-| **Trails**            | Verifiable records of meaningful activity              |
-| **Builders**          | Contributors creating and improving the platform       |
-| **Maintainers**       | Contributors helping protect and sustain the project   |
-| **Collective effort** | The collaboration that keeps the ecosystem functioning |
-
-The metaphor exists to communicate a principle:
-
-> **Strong structures emerge when many small contributions coordinate
-> around a shared purpose.**
-
-------------------------------------------------------------------------
-
-## 🌍 Why It Matters
-
-Hut4Devs explores what happens when accommodation payments are treated
-not merely as isolated financial transactions, but as part of a broader
-community system.
-
-For interns, that can mean less payment friction and more reliable
-support.
-
-For coordinators, it can mean clearer records and less manual
-verification.
-
-For developers, it creates a real problem worth building around.
-
-For the community, it creates an opportunity to make **trust,
-reliability, generosity, and collective responsibility part of the
-infrastructure itself**.
-
-------------------------------------------------------------------------
-
-## 🧭 Project Principles
-
-1. **Human problem before technology** — blockchain is a tool, not the
-    purpose.
-2. **Verifiability over screenshots** — trusted records should reduce
-    manual proof.
-3. **Collaboration over isolation** — community support is part of the
-    system.
-4. **Accountability without humiliation** — financial difficulty should
-    not become public shame.
-5. **Voluntary generosity** — no member should be pressured to lend or
-    gift.
-6. **Privacy with appropriate transparency** — verification does not
-    require exposing everything.
-7. **Build with the community** — contributors and users should help
-    shape Hut4Devs.
-8. **Reward healthy habits** — recognize behaviors that strengthen the
-    colony.
-9. **Design for evolution** — implementation details will change as the
-    project is tested and refined.
+> **The goal is to become capable of helping the next person participate
+> and grow.**
 
 ------------------------------------------------------------------------
 
 ## 📚 Project Documentation
 
-Hut4Devs documentation is being developed as a set of focused documents.
+The documentation now forms a deliberate progression from human problem
+to system governance.
 
 ``` text
-Hut4Devs/
+.github/
 ├── README.md
-├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── SECURITY.md
 ├── LICENSE
+├── profile/
+│   └── README.md
 └── docs/
     ├── 01_COLLABORATION.md
-    ├── 02_...
-    └── 03_...
+    ├── 02_PROBLEM_AND_RESEARCH.md
+    ├── 03_PRODUCT_VISION.md
+    ├── 04_USER_EXPERIENCE.md
+    ├── 05_PAYMENT_AND_TRUST_TRAILS.md
+    ├── 06_PEER_SUPPORT.md
+    ├── 07_RECOGNITION.md
+    ├── 08_TECHNICAL_ARCHITECTURE.md
+    ├── 09_PRIVACY_AND_SECURITY.md
+    └── 10_GOVERNANCE.md
 ```
 
-### Current Documents
+### Documentation Map
 
-| Document                                               | Purpose                                                                                            |
-|--------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| `README.md`                                            | Main introduction and overview of Hut4Devs                                                         |
-| [`docs/01_COLLABORATION.md`](docs/01_COLLABORATION.md) | Collaboration, interdependence, lending, gifting, repayment, recognition, and community philosophy |
+| Document                                                                     | Purpose                                                                                    |
+|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`docs/01_COLLABORATION.md`](docs/01_COLLABORATION.md)                       | Collaboration, interdependence, and the deeper community philosophy.                       |
+| [`docs/02_PROBLEM_AND_RESEARCH.md`](docs/02_PROBLEM_AND_RESEARCH.md)         | Problem framing, evidence, assumptions, research, and validation.                          |
+| [`docs/03_PRODUCT_VISION.md`](docs/03_PRODUCT_VISION.md)                     | Trusted community coordination infrastructure and product direction.                       |
+| [`docs/04_USER_EXPERIENCE.md`](docs/04_USER_EXPERIENCE.md)                   | Dignity, consent, contextual trust, journeys, failure, and repair.                         |
+| [`docs/05_PAYMENT_AND_TRUST_TRAILS.md`](docs/05_PAYMENT_AND_TRUST_TRAILS.md) | Commitments, payments, evidence, corrections, consent, and trust trails.                   |
+| [`docs/06_PEER_SUPPORT.md`](docs/06_PEER_SUPPORT.md)                         | Direct peer support, vouching, safe declining, reciprocity, and recovery.                  |
+| [`docs/07_RECOGNITION.md`](docs/07_RECOGNITION.md)                           | Contextual recognition without universal scoring or human ranking.                         |
+| [`docs/08_TECHNICAL_ARCHITECTURE.md`](docs/08_TECHNICAL_ARCHITECTURE.md)     | System guarantees, domain boundaries, evidence, verification, and architecture principles. |
+| [`docs/09_PRIVACY_AND_SECURITY.md`](docs/09_PRIVACY_AND_SECURITY.md)         | Privacy, security, threat thinking, anti-forgery, incident response, and human harm.       |
+| [`docs/10_GOVERNANCE.md`](docs/10_GOVERNANCE.md)                             | Authority, decision rights, accountability, appeals, stewardship, and continuity.          |
 
-Additional documents will be added as the product, architecture,
-governance, user experience, and contribution model are refined.
+Root policies:
+
+| File                                       | Purpose                                                  |
+|--------------------------------------------|----------------------------------------------------------|
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | How participants are expected to treat one another.      |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md)       | How contributors propose, build, review, and merge work. |
+| [`SECURITY.md`](SECURITY.md)               | How vulnerabilities should be reported and handled.      |
+| [`LICENSE`](LICENSE)                       | Apache License 2.0.                                      |
 
 ------------------------------------------------------------------------
 
@@ -455,30 +804,101 @@ governance, user experience, and contribution model are refined.
 
 Hut4Devs is intended to be built **with** its community.
 
-Contribution can eventually include:
+Contribution can include:
 
-- Software development
-- Product and UX design
-- Documentation
-- Research
-- Testing
-- Smart-contract development
-- Security review
-- Community support
-- Mentorship
-- Issue reporting
-- Feature proposals
+- Software development.
+- Product and UX design.
+- Documentation.
+- Research.
+- Testing.
+- Security review.
+- Architecture.
+- Accessibility.
+- Community learning resources.
+- Governance improvements.
+- Mentorship.
+- Issue reporting.
+- Feature proposals.
 
-Contribution guidelines will live in
-[`CONTRIBUTING.md`](CONTRIBUTING.md) as the repository matures.
+Start with the problem, keep branches focused, and use pull requests.
+
+Hut4Devs commit and PR titles begin with:
+
+``` text
+🛖
+```
+
+Example:
+
+``` text
+🛖 docs: refine project README
+```
+
+Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before making a substantial
+contribution.
+
+Participation is also governed by
+[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
 
 ------------------------------------------------------------------------
 
-## 🔗 Project Links
+## 🔐 Security
 
-- **GitHub:** `github.com/hut4devs`
-- **Stellar:** `stellar.org`
-- **Drips:** `drips.network`
+Security protects:
+
+``` text
+SYSTEM
+  +
+DATA
+  +
+EVIDENCE
+  +
+PERSON
+```
+
+Sensitive vulnerabilities should not be published in ordinary public
+issues.
+
+See [`SECURITY.md`](SECURITY.md) for reporting guidance and
+[`docs/09_PRIVACY_AND_SECURITY.md`](docs/09_PRIVACY_AND_SECURITY.md) for
+the deeper security model.
+
+> **Protect the system strongly enough to preserve trust, and protect
+> the person carefully enough that security itself does not become a
+> source of harm.**
+
+------------------------------------------------------------------------
+
+## ⚖️ License
+
+Hut4Devs is licensed under the [Apache License 2.0](LICENSE).
+
+Contributions are made under the terms described by the project license
+and contribution guidelines.
+
+------------------------------------------------------------------------
+
+## 🌍 The Colony Metaphor
+
+The colony metaphor communicates one principle:
+
+> **Strong structures emerge when many small contributions coordinate
+> around a shared purpose.**
+
+| Colony idea           | Hut4Devs meaning                                        |
+|-----------------------|---------------------------------------------------------|
+| **The Hut / Mound**   | Shared infrastructure and community.                    |
+| **The Colony**        | People participating in the ecosystem.                  |
+| **Chambers**          | Contextual groups such as rooms or accommodation units. |
+| **Trails**            | Trusted records of meaningful activity.                 |
+| **Builders**          | Contributors creating and improving the system.         |
+| **Maintainers**       | Contributors protecting and sustaining it.              |
+| **Collective effort** | Interdependence coordinated around a shared purpose.    |
+
+The metaphor should help explain the system.
+
+It should never be used to justify treating people as interchangeable
+units.
 
 ------------------------------------------------------------------------
 
@@ -486,27 +906,34 @@ Contribution guidelines will live in
 
 > **I don't have to stand alone when I am part of a colony.**
 
-When one member needs help, another may be able to contribute.
+But interdependence does not mean entitlement.
 
-When someone receives support, they may later repay it or support
-someone else.
+No member owns another person's money, time, labour, privacy,
+reputation, loyalty, or willingness to help.
 
-When developers contribute, maintainers strengthen their work.
+Support should build trust, not control.
 
-When users participate, their experiences help improve what gets built
-next.
+A person who receives support today may support someone tomorrow.
+
+A person who makes a mistake should be able to repair it.
+
+A person who exercises authority should remain accountable.
+
+A contributor who learns today may become a maintainer tomorrow.
 
 This is the deeper meaning of **Built by us. For us-all.**
 
 We are not simply building software for a community.
 
-**We are building infrastructure that allows a community to build, pay,
-support, learn, and sustain itself.**
+**We are building infrastructure that helps a community coordinate
+responsibility, support one another, preserve trustworthy evidence,
+learn, repair, and grow.**
 
 ------------------------------------------------------------------------
 
 ## 🤝 Built by Us. For Us-All
 
-> **Turning payments into trails of trust built by us and for us-all.**
+> **Turning everyday collaboration into trails of trust built by us and
+> for us-all.**
 
-### **Build. Pay. Support. Thrive. 🐜🐜**
+### **Build. Pay. Support. Thrive. 🛖**
