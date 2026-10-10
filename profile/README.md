@@ -1,341 +1,132 @@
 # 🛖 Hut4Devs
 
-> **Turning everyday collaboration into trails of trust built by us and
-> for us-all.**
+> **Turning everyday collaboration into trails of trust built by us and for us-all.**
 
 **Build. Pay. Support. Thrive.**
 
-Hut4Devs is an open-source community building **trusted coordination
-infrastructure** for shared responsibilities, peer support, commitments,
-evidence, and repair.
+Hut4Devs is an open-source community building **trusted coordination infrastructure** for shared responsibilities, peer support, commitments, evidence, and repair.
+
+We believe people should be able to support one another, honour commitments, navigate difficulties, and build trust without sacrificing their privacy or dignity.
 
 **Accommodation is where we begin — not where the vision ends.**
 
-------------------------------------------------------------------------
+---
 
-## 🌱 What We Are Building
+## 🌱 Our Mission
 
-People already support one another.
+People already collaborate in meaningful ways. They contribute, lend, repay, mentor, recommend, and help one another through difficult moments.
 
-They share responsibilities, lend, contribute, repay, mentor, recommend,
-communicate through difficulty, and depend on relationships that formal
-systems often fail to represent well.
+Yet many of these interactions lack transparent records, shared accountability, and ways to recognize responsible participation.
 
-Hut4Devs explores how those interactions can gain trustworthy digital
-structure without turning community into surveillance, debt shaming,
-popularity, or a universal score.
+Hut4Devs explores how technology can strengthen these relationships while keeping people—not technology—at the centre.
 
-Our design challenge is:
+Our guiding question:
 
-> **How might we help fellows and interns coordinate shared
-> responsibilities, peer support, and repayments in a way that builds
-> trust, starting with accommodation?**
+> **How might we help fellows and interns coordinate shared responsibilities, peer support, and repayments in a way that builds trust, starting with accommodation?**
 
-Our research principle is:
+Our approach is simple:
 
-> **Understand before automating. Validate before scaling. Solve the
-> human problem before choosing technology.**
+**Understand before automating. Validate before scaling. Solve the human problem before choosing technology.**
 
-------------------------------------------------------------------------
+---
 
-## 🧭 The Model
+## 🧭 What We're Building
 
-``` text
-COORDINATE
-shared responsibilities and commitments
-        ↓
-SUPPORT
-lend, gift, contribute, mentor, vouch
-        ↓
-ACCOUNT
-preserve trustworthy evidence and context
-        ↓
-GROW
-recognize responsibility, repair, judgment,
-mentorship, and contribution
-```
+Hut4Devs is exploring a community coordination model built around four connected activities:
 
-Hut4Devs is designed around **responsible interdependence**.
+- **Coordinate** — Organize shared responsibilities, commitments, and payments.
+- **Support** — Enable peer lending, gifts, contributions, mentorship, and vouching.
+- **Account** — Preserve trustworthy evidence and context while allowing corrections and renegotiation.
+- **Grow** — Recognize responsibility, contribution, sound judgment, and community stewardship.
 
-That means:
+Our goal is not to score people. It is to help communities build healthier relationships through responsible interdependence.
 
-- Asking for help is not weakness.
-- Helping is not ownership.
-- Declining is not betrayal.
-- Vouching is not casual praise.
-- Accountability is not humiliation.
-- Difficulty does not permanently define a person.
-- Trust should be grounded in evidence and context.
+---
 
-------------------------------------------------------------------------
+## 🏠 Where We Begin
 
-## 🏠 First Proving Ground: Accommodation
+Accommodation provides our first proving ground.
 
-Accommodation brings several real problems together:
+It brings together real challenges involving recurring payments, shared expenses, irregular income, temporary shortages, peer support, repayment, communication, and accountability.
 
-- Shared responsibility.
-- Recurring payments.
-- Irregular income or stipend timing.
-- Verification.
-- Temporary shortages.
-- Peer lending.
-- Contributions and gifts.
-- Repayment.
-- Privacy.
-- Communication.
-- Repair.
+By understanding these challenges first, we can test practical solutions before extending the model to other forms of community collaboration.
 
-It gives Hut4Devs a concrete environment in which to test a broader
-coordination model.
+---
 
-------------------------------------------------------------------------
+## 🤝 Our Principles
 
-## 🤝 Peer Support and Vouching
+We are building with the following principles:
 
-Ordinary support should remain direct:
+- **Trust through evidence:** Records should provide context, not define a person's entire character.
+- **Privacy by default:** Transparency must have boundaries.
+- **Voluntary support:** Asking for help, declining a request, and offering support should remain human choices.
+- **Accountability with dignity:** People need room to communicate, renegotiate, correct mistakes, and repair relationships.
+- **Recognition without social credit:** Celebrate demonstrated contributions without creating universal trust scores or rankings of human worth.
+- **Accountable governance:** Authority should be limited, visible, and reviewable.
 
-``` text
-Peer ↔ Peer
-```
+> **Interdependence means we can rely on one another without believing we own one another.**
 
-Coordinators may help when coordination is useful, but they should not
-become mandatory gatekeepers for normal loans, gifts, contributions,
-vouches, or repayments.
+---
 
-When a supporter needs more context, they may seek vouches from people
-whose judgment they trust.
-
-A vouch is contextual:
-
-``` text
-person + context + confidence + commitment + time
-```
-
-It is not a certificate of someone's total character.
-
-A person must also be able to say **no** safely.
-
-------------------------------------------------------------------------
-
-## 🐜 Trails of Trust
-
-A trail of trust can preserve meaningful events such as:
-
-``` text
-Commitment created
-      ↓
-Payment / support / vouch
-      ↓
-Change or difficulty
-      ↓
-Correction / renegotiation
-      ↓
-Resolution
-      ↓
-Verifiable evidence
-```
-
-Material history should not be silently rewritten.
-
-Corrections should remain understandable.
-
-People should be able to share selected evidence without exposing their
-entire private history.
-
-> **People present narratives. The platform preserves facts.**
-
-------------------------------------------------------------------------
-
-## 🏆 Recognition Without Social Credit
-
-Hut4Devs may recognize demonstrated patterns of:
-
-- Responsible repayment.
-- Fulfilled commitments.
-- Careful vouching.
-- Communication and repair.
-- Peer support.
-- Mentorship.
-- Technical contribution.
-- Community stewardship.
-
-Recognition should say:
-
-> **We noticed what you repeatedly demonstrated here.**
-
-It should never claim:
-
-> **We have calculated who you are.**
-
-We are not building universal trust scores, public rankings of human
-worth, wealth leaderboards, or permanent negative labels.
-
-------------------------------------------------------------------------
-
-## 🔐 Privacy, Security, and Dignity
-
-Transparency has boundaries.
-
-Hut4Devs is designed around:
-
-- Privacy by default.
-- Purpose-bound access.
-- Meaningful consent.
-- Minimal disclosure.
-- Traceable corrections.
-- Anti-forgery verification.
-- Constrained administrative power.
-- Repair after mistakes.
-- Security that protects people as well as systems.
-
-> **Technical capability is not legitimate authority.**
-
-------------------------------------------------------------------------
-
-## 🧱 Four Foundations
-
-``` text
-SYSTEM INTEGRITY
-Can the system prove what happened?
-
-SOCIAL INTEGRITY
-Are relationships handled fairly?
-
-CULTURAL DEVELOPMENT
-Are people developing sound judgment?
-
-ACCOUNTABLE GOVERNANCE
-Is power limited, visible, and reviewable?
-```
-
-Together:
-
-``` text
-SYSTEM INTEGRITY
-        +
-SOCIAL INTEGRITY
-        +
-CULTURAL DEVELOPMENT
-        +
-ACCOUNTABLE GOVERNANCE
-        ↓
-TRUSTWORTHY COMMUNITY INFRASTRUCTURE
-```
-
-------------------------------------------------------------------------
-
-## 🛠️ Technology Follows the Problem
+## 🛠️ Technology With Purpose
 
 Hut4Devs is **architecture-first, stack-later**.
 
-We are blockchain-aware, not blockchain-dependent.
+We are blockchain-aware, not blockchain-dependent. We explore technologies such as Stellar, Soroban, wallets, payment providers, and databases only where their capabilities address validated needs.
 
-Stellar, Soroban, wallets, payment providers, databases, and other
-technologies may be explored where their guarantees solve validated
-needs.
+Technology should serve the community's needs—not force the community to fit the technology.
 
-Sensitive raw personal and financial history should not be placed on a
-public ledger merely because blockchain is available.
+Our commitment is to build infrastructure that is useful, verifiable, secure, privacy-conscious, and accountable.
 
-> **Architecture is not the technology list. It is the structure that
-> determines what the technology is allowed to do.**
+---
 
-------------------------------------------------------------------------
+## 🧱 What Guides Us
 
-## 🚫 What We Are Not Building
+Our work is grounded in four foundations:
 
-Hut4Devs is not currently building:
+1. **System Integrity** — Can the system provide trustworthy evidence of what happened?
+2. **Social Integrity** — Are relationships handled fairly and with dignity?
+3. **Cultural Development** — Are people developing sound judgment and responsible habits?
+4. **Accountable Governance** — Is power constrained, transparent, and reviewable?
 
-- A universal social-credit system.
-- A public debt registry.
-- A popularity or wealth leaderboard.
-- An interest-based lending marketplace.
-- Pooled investment or profit-sharing products.
-- Mandatory coordinator approval for ordinary peer support.
-- Automatic guarantor liability through vouching.
-- Surveillance disguised as transparency.
+Together, these foundations guide both our product decisions and our community practices.
 
-------------------------------------------------------------------------
+---
 
-## 📚 Explore the Project
+## 🤝 Build With Us
 
-Start with the main project overview:
+Hut4Devs welcomes contributors who want to help solve meaningful community problems through:
 
-- [`README.md`](../README.md)
+- Software engineering and architecture
+- Blockchain and Web3 development
+- Product management and research
+- Product design and user experience
+- Data, backend systems, and automation
+- Testing, security, and accessibility
+- Documentation, governance, and community growth
+- Learning and mentorship
 
-Then follow the documentation journey:
+Whether you are an experienced contributor or still developing your skills, there is room to learn, collaborate, and make meaningful contributions.
 
-1. [`01_COLLABORATION.md`](../docs/01_COLLABORATION.md) — community
-    philosophy and interdependence.
-2. [`02_PROBLEM_AND_RESEARCH.md`](../docs/02_PROBLEM_AND_RESEARCH.md) —
-    human problem and research.
-3. [`03_PRODUCT_VISION.md`](../docs/03_PRODUCT_VISION.md) — broader
-    product direction.
-4. [`04_USER_EXPERIENCE.md`](../docs/04_USER_EXPERIENCE.md) — dignity,
-    consent, journeys, and repair.
-5. [`05_PAYMENT_AND_TRUST_TRAILS.md`](../docs/05_PAYMENT_AND_TRUST_TRAILS.md)
-    — commitments and evidence.
-6. [`06_PEER_SUPPORT.md`](../docs/06_PEER_SUPPORT.md) — direct support
-    and vouching.
-7. [`07_RECOGNITION.md`](../docs/07_RECOGNITION.md) — contextual
-    recognition.
-8. [`08_TECHNICAL_ARCHITECTURE.md`](../docs/08_TECHNICAL_ARCHITECTURE.md)
-    — system guarantees and architecture.
-9. [`09_PRIVACY_AND_SECURITY.md`](../docs/09_PRIVACY_AND_SECURITY.md) —
-    privacy and security.
-10. [`10_GOVERNANCE.md`](../docs/10_GOVERNANCE.md) — authority and
-    accountability.
+**Start here:**
 
-Project policies:
+- [Explore the Hut4Devs repository](https://github.com/Pafekzy/Hut4Devs)
+- [Read the contribution guidelines](https://github.com/Pafekzy/Hut4Devs/blob/main/CONTRIBUTING.md)
+- [Read our Code of Conduct](https://github.com/Pafekzy/Hut4Devs/blob/main/CODE_OF_CONDUCT.md)
+- [Explore our project documentation](https://github.com/Pafekzy/Hut4Devs/tree/main/docs)
 
-- [`CODE_OF_CONDUCT.md`](../CODE_OF_CONDUCT.md)
-- [`CONTRIBUTING.md`](../CONTRIBUTING.md)
-- [`SECURITY.md`](../SECURITY.md)
-- [`LICENSE`](../LICENSE)
+Hut4Devs commit and pull request titles begin with the 🛖 emoji.
 
-------------------------------------------------------------------------
+Example: `🛖 docs: refine organization profile`
 
-## 🤝 Join the Colony
+---
 
-You can contribute through:
+## 🌍 Built by Us. For Us-All.
 
-- Software engineering.
-- Product and UX design.
-- Research.
-- Documentation.
-- Testing.
-- Security.
-- Accessibility.
-- Architecture.
-- Governance.
-- Community learning.
-- Mentorship.
+We are building more than a way to record payments or commitments.
 
-Hut4Devs commit and PR titles begin with:
+We are exploring how communities can coordinate, support one another, preserve trustworthy evidence, and cultivate the judgment needed to sustain meaningful relationships.
 
-``` text
-🛖
-```
+**Build. Pay. Support. Thrive. 🛖**
 
-Example:
-
-``` text
-🛖 docs: refine organization profile
-```
-
-Read [`CONTRIBUTING.md`](../CONTRIBUTING.md) before substantial
-contributions and [`CODE_OF_CONDUCT.md`](../CODE_OF_CONDUCT.md) before
-participating in the community.
-
-------------------------------------------------------------------------
-
-## 🌍 Built by Us. For Us-All
-
-> **Interdependence means we can rely on one another without believing
-> we own one another.**
-
-Hut4Devs is not only about recording responsible behaviour.
-
-It is about helping cultivate the judgment required to practise it.
-
-### **Build. Pay. Support. Thrive. 🛖**
+*Built by us, for us-all.*
