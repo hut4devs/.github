@@ -63,7 +63,7 @@ Specify tests, screenshots, experiment results, security review, or demonstratio
 - Close issues only when their acceptance criteria are satisfied or they are explicitly cancelled with a reason.
 - An issue count is not a measure of product progress.
 - Avoid vague issues such as "improve security" or "add AI." Specify the threat, user need, outcome, and evidence.
-- Use the organization's agreed  commit convention where applicable.
+- Use the organization's agreed commit convention where applicable.
 
 ## Priority policy
 - P0: Active critical incident or release-blocking critical risk.
